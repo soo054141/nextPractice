@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #303030;
+  color: white;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  padding: 10px;
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.title{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.titleSub {
+  text-align: center;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items: center;
+}
+
+.food {
+}
+
+.food h4{
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 200px;
+  color: #000;
+}
